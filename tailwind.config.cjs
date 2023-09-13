@@ -3,7 +3,12 @@ const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {
+			fontFamily: {
+				sans: ['Work Sans'],
+				logo: ['Bubblegum Sans']
+			}
+		}
 	},
 
 	plugins: [require('daisyui')],
