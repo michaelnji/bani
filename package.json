@@ -49,7 +49,6 @@
 		"@fontsource/syne": "^5.0.11",
 		"@fontsource/work-sans": "^5.0.8",
 		"@sveltestack/svelte-query": "^1.6.0",
-		"s-offline": "^0.7.1",
 		"svelte-heros": "^5.1.0"
 	}
 }
