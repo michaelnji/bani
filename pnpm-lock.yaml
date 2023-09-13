@@ -1,32 +1,24 @@
 lockfileVersion: '6.0'
 
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   '@fontsource/amaranth':
     specifier: ^5.0.8
     version: 5.0.8
   '@fontsource/bubblegum-sans':
     specifier: ^5.0.11
-    version: 5.0.11
+    version: 5.0.12
   '@fontsource/manrope':
     specifier: ^5.0.12
     version: 5.0.12
   '@fontsource/syne':
     specifier: ^5.0.11
-    version: 5.0.11
+    version: 5.0.12
   '@fontsource/work-sans':
     specifier: ^5.0.8
     version: 5.0.8
   '@sveltestack/svelte-query':
     specifier: ^1.6.0
     version: 1.6.0
-  s-offline:
-    specifier: ^0.7.1
-    version: 0.7.1(ping.js@0.3.0)(svelte@4.2.0)
   svelte-heros:
     specifier: ^5.1.0
     version: 5.1.0(svelte@4.2.0)
@@ -369,8 +361,8 @@ packages:
     resolution: {integrity: sha512-XDPC127igqaZS33YtIKFBrbmfkC0g2hRFeVt9sVevDKwgAhs9iSQBEZPog3QUOTqlZxMq47Atfe559WpbpgU4w==}
     dev: false
 
-  /@fontsource/bubblegum-sans@5.0.11:
-    resolution: {integrity: sha512-VkBZbM2NR0EP3kBvpuEh0F8JJiwlpdhoocyO9rlT2A2oWDkZn78vQgOmxZeiQ/JCdnOxoRpzWW9a/w2YSoa3IA==}
+  /@fontsource/bubblegum-sans@5.0.12:
+    resolution: {integrity: sha512-XxVIuqW2QhdDO1rCCw85AKSD2YIUrpPsM36KgxD7xzYwMMiMYidn/oMXVm59M+ygb4kom3faT63lRdwvIgwwxQ==}
     dev: false
 
   /@fontsource/fira-mono@4.5.10:
@@ -381,8 +373,8 @@ packages:
     resolution: {integrity: sha512-KGPNJBWV+f8Q/AEGL3EtIBid70fldEZtz3CJ3rBimYBk/JU1EkIvxTN//gHwTlwJehh2lDTlIMO3lBOlu9WtDQ==}
     dev: false
 
-  /@fontsource/syne@5.0.11:
-    resolution: {integrity: sha512-28YYkiHMXCTUMT7+hc72Am3POUoYzwp1V/lTIL/Um/LQZn6lfpVLfYQOxbpNKq2v0t+DZXQ9U5FjKh7JPgSqLQ==}
+  /@fontsource/syne@5.0.12:
+    resolution: {integrity: sha512-g19mfJxsYWQllJ+yuM0ja0IYB3dmnxIx3Yjo6wCxFBcfdLue2TkXSqxwxUFhvEfiJfwe0eY4sABxuF1mpu4Pfg==}
     dev: false
 
   /@fontsource/work-sans@5.0.8:
@@ -1540,18 +1532,17 @@ packages:
     resolution: {integrity: sha512-n2aZ9tNfYDwaHhvFTkhFErqOMIb8uyzSQ+vGJBjZyanAKZVbGUQ1sngfk9FdkBw7G26O7AgNjLcecLffD1c7eg==}
     dev: true
 
+  /framesync@6.1.2:
+    resolution: {integrity: sha512-jBTqhX6KaQVDyus8muwZbBeGGP0XgujBRbQ7gM7BRdS3CadCZIHiawyzYLnafYcvZIh5j8WE7cxZKFn7dXhu9g==}
+    dependencies:
+      tslib: 2.4.0
+    dev: true
 
   /fs-minipass@2.1.0:
     resolution: {integrity: sha512-V/JgOLFCS+R6Vcq0slCuaeWEdNC3ouDlJMNIsacH2VtALiu9mV4LPrHc5cDl8k5aw6J8jwgWWpiTo5RYhmIzvg==}
     engines: {node: '>= 8'}
     dependencies:
       minipass: 3.3.6
-
-  /framesync@6.1.2:
-    resolution: {integrity: sha512-jBTqhX6KaQVDyus8muwZbBeGGP0XgujBRbQ7gM7BRdS3CadCZIHiawyzYLnafYcvZIh5j8WE7cxZKFn7dXhu9g==}
-    dependencies:
-      tslib: 2.4.0
-
     dev: true
 
   /fs.realpath@1.0.0:
@@ -1684,6 +1675,9 @@ packages:
       function-bind: 1.1.1
     dev: true
 
+  /hey-listen@1.0.8:
+    resolution: {integrity: sha512-COpmrF2NOg4TBWUJ5UVyaCU2A88wEMkUPK4hNqyCkqHbxT92BbvfjoSozkAIIm6XhicGlJHhFdullInrdhwU8Q==}
+    dev: true
 
   /https-proxy-agent@5.0.1:
     resolution: {integrity: sha512-dFcAjpTQFgoLMzC2VwU+C/CbS7uRL0lWmxDITmqm7C+7F0Odmj6s9l6alZc6AELXhrnggM2CeWSXHGOdX2YtwA==}
@@ -1693,10 +1687,6 @@ packages:
       debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
-
-  /hey-listen@1.0.8:
-    resolution: {integrity: sha512-COpmrF2NOg4TBWUJ5UVyaCU2A88wEMkUPK4hNqyCkqHbxT92BbvfjoSozkAIIm6XhicGlJHhFdullInrdhwU8Q==}
-
     dev: true
 
   /ignore@5.2.4:
@@ -2165,10 +2155,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /ping.js@0.3.0:
-    resolution: {integrity: sha512-qisFwio7j0cwYbOcRL4BlTdxKALcpGPTkpl8ichGASgkrVqfI3sZfQDsP8wETR5rfutXZJLjlJ117aLkRnk2mA==}
-    dev: false
-
   /pirates@4.0.6:
     resolution: {integrity: sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==}
     engines: {node: '>= 6'}
@@ -2418,18 +2404,6 @@ packages:
     dependencies:
       queue-microtask: 1.2.3
     dev: true
-
-  /s-offline@0.7.1(ping.js@0.3.0)(svelte@4.2.0):
-    resolution: {integrity: sha512-9XFlZu7ntEmYtzDkL3dXtnV0g7qYTAIfFBqP7kjaVclZBX8UmKPFq5MJllyjXJ8SXFApuMpRD1ONzG76Dxlsnw==}
-    engines: {node: '>=18.0.0', npm: '>=9.0.0'}
-    requiresBuild: true
-    peerDependencies:
-      ping.js: ^0.3.0
-      svelte: ^3.58.0
-    dependencies:
-      ping.js: 0.3.0
-      svelte: 4.2.0
-    dev: false
 
   /sade@1.8.1:
     resolution: {integrity: sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A==}
